@@ -1,16 +1,49 @@
-# React + Vite
+AJX Fitclub (Web)
+AJX Fitclub is an open-source health and wellness platform designed to bridge the gap between fitness management and user engagement. Developed as a foundational "Startup-in-a-Box" for the fitness industry, this project provides a modular web interface for session scheduling, member tracking, and personalized wellness dashboards.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Mission
+The goal of AJX Fitclub is to provide independent gym owners and fitness professionals with high-quality, open-source digital infrastructure. By offering a customizable frontend, we allow small businesses to compete with enterprise-level fitness platforms without the prohibitive licensing costs.
 
-Currently, two official plugins are available:
+✨ Key Features
+Dynamic Scheduling: A responsive calendar system for booking fitness sessions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Member Dashboards: intuitive UI for users to track their workout history and progress.
 
-## React Compiler
+Modular Component Library: A set of reusable React components specifically designed for health-tech interfaces.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite-Powered Performance: Optimized for lightning-fast load times and seamless state transitions.
 
-## Expanding the ESLint configuration
+🛠️ Technology Stack
+Frontend: React (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS / CSS Modules
+
+State Management: (Context API / Redux - Update based on your actual use)
+
+Tooling: ESLint, Prettier
+
+📖 Getting Started
+Clone the repo:
+
+Bash
+git clone https://github.com/NirajV7/ajxfitclub-web.git
+Install dependencies:
+
+Bash
+npm install
+Run development server:
+
+Bash
+npm run dev
+🛤️ Roadmap (2026)
+[ ] AI Personal Trainer Integration: Using Claude’s API to generate personalized workout plans based on user data.
+
+[ ] Web3 Integration: Rewarding users with digital badges for consistent check-ins.
+
+[ ] Advanced Analytics: Real-time data visualization of club occupancy and session popularity.
+
+🤝 Support & Contribution
+AJX Fitclub is an open-source project. We welcome contributions from the community to help make fitness tech more accessible. Please feel free to open issues or submit pull requests.
+
+📄 License
+Distributed under the MIT License.
